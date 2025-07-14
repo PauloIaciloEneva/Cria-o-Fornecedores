@@ -37,6 +37,5 @@ class Conection():
         STCD1, 
         STCD2
         FROM [SAP_ECC_TGT].[LFA1]
-        WHERE STCD2 IS NOT NULL
         """
         return self.fetch_data(query_LFA1)
